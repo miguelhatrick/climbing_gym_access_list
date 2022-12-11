@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+
+        <!-- Main menu-->
+        <menuitem name="Access List" id="climbing_gym.menu_4_access_list" parent="climbing_gym.menu_root"
+                  groups="climbing_gym.group_manager" sequence="500"/>
+
+        <!-- Content-->
+        <menuitem name="Lists" id="climbing_gym.access_list" parent="climbing_gym.menu_4_access_list"
+                  action="access_list_list_action"/>
+
+         <!-- Subgroup-->
+        <menuitem name="Tools" id="climbing_gym.menu_access_list_tool" parent="climbing_gym.menu_4_access_list"/>
+
+        <menuitem name="Generator" id="climbing_gym.access_list_generator" parent="climbing_gym.menu_access_list_tool"
+                  action="access_list_generator_list_action"/>
+
+    </data>
+</odoo>

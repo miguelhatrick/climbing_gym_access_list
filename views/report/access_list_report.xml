@@ -1,0 +1,88 @@
+<odoo>
+    <data>
+        <report id="report_access_list"
+                string="PDF Report"
+                model="climbing_gym.access_list"
+                report_type="qweb-pdf"
+                name="climbing_gym_access_list.report_access_list_template"
+        />
+
+        <report id="report_access_list_web"
+                string="WEB Report"
+                model="climbing_gym.access_list"
+                report_type="qweb-html"
+                name="climbing_gym_access_list.report_access_list_template"
+        />
+
+        <template id="report_access_list_template">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="meg">
+                    <t t-call="climbing_gym_report.external_layout_climbing_gym">
+                        <div class="header"></div>
+                        <div class="page">
+                            <h2>Access list report</h2>
+                            <h3>
+                                <span t-field="meg.name"/>
+                            </h3>
+
+                            <table class="table table-condensed" style="border: 1px solid #9999">
+                                <tbody>
+                                    <tr class="border-black">
+                                        <th>Organization</th>
+                                        <th>Name</th>
+                                        <th>Lastname</th>
+                                        <th>VAT</th>
+                                        <th>Birthday</th>
+                                        <th>Function</th>
+                                        <th>Medical certificate due date</th>
+                                        <th>Doctor's name</th>
+                                    </tr>
+
+                                    <tr t-foreach="meg.access_list_content_accepted_ids.sorted(key=lambda r: r.partner_id.lastname)"
+                                        t-as="cont">
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.firstname"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.lastname"/>
+                                        </td>
+
+                                        <td>
+                                            <span t-field="cont.partner_id.main_id_number"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.birthdate_date"/>
+                                            <t t-if="not cont.partner_id.birthdate_date">
+                                                <span t-field="cont.partner_id.mobile"/>
+                                            </t>
+                                        </td>
+                                        <td>
+                                            <span>Sportsman</span>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.climbing_gym_medical_certificate_latest.issue_date"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.climbing_gym_medical_certificate_latest.doctor_name"/>
+                                            <span t-field="cont.partner_id.climbing_gym_medical_certificate_latest.doctor_license"/>
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="footer">
+                            <p>Generated:
+                                <span t-esc="context_timestamp(datetime.datetime.now()).strftime('%Y-%m-%d %H:%M')"/>
+                            </p>
+                        </div>
+                    </t>
+                </t>
+            </t>
+
+        </template>
+    </data>
+</odoo>
