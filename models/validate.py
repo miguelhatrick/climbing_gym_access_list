@@ -27,7 +27,7 @@ def validate_partner(access_list_type, partner_id):
             raise ValidationError(_("Partner has not the required tags!"))
 
     # Valid exams
-    for _course_type_id in access_list_type.require_exams:
+    if access_list_type.require_exams:
         if not partner_id.climbing_gym_school_exam_student_ids.filtered(
-                lambda e: e.course_id.course_type_id == _course_type_id and e.state == 'approved'):
+                lambda e: e.course_id.course_type_id in access_list_type.require_exams and e.state == 'approved'):
             raise ValidationError(_("Partner has not approved the required course!"))
