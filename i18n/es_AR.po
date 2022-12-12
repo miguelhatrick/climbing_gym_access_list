@@ -1,0 +1,725 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* climbing_gym_access_list
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-11 23:59+0000\n"
+"PO-Revision-Date: 2022-12-11 21:02-0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "10"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "11"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "12"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "13"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "14"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "15"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "16"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "17"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "18"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "19"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "20"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "21"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "22"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "23"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "24"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "25"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "26"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,process_day:0
+msgid "27"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.portal_access_list_sidebar
+msgid "<i class=\"fa fa-calendar fa-fw\" role=\"img\" aria-label=\"Due date\" title=\"Due Date\"/>"
+msgstr "<i class=\"fa fa-calendar fa-fw\" role=\"img\" aria-label=\"Vencimiento\" title=\"Vencimiento\"/>"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.portal_access_list_sidebar
+msgid "<i class=\"fa fa-id-card fa-fw\" role=\"img\" aria-label=\"Id\" title=\"Id\"/>"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "<span>Sportsman</span>"
+msgstr "<span>Deportista</span>"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__access_list_content_accepted_ids
+msgid "Accepted students"
+msgstr "Alumnos aceptados"
+
+#. module: climbing_gym_access_list
+#: model:ir.actions.act_window,name:climbing_gym_access_list.access_list_list_action
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__access_list_id
+msgid "Access List"
+msgstr "Lista de acceso"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__access_list_contents_count
+msgid "Access List Contents Count"
+msgstr "Conteo de contenido de lista"
+
+#. module: climbing_gym_access_list
+#: model:ir.actions.act_window,name:climbing_gym_access_list.access_list_generator_list_action
+msgid "Access List Generator"
+msgstr "Generador de lista de acceso"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
+msgid "Access List Generator form"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+msgid "Access List form"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+msgid "Access Lists contents"
+msgstr "Contenidos de lista de acceso"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_search_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.portal_access_list_sidebar
+msgid "Access list"
+msgstr "Lista de acceso"
+
+#. module: climbing_gym_access_list
+#: model:ir.actions.act_window,name:climbing_gym_access_list.access_list_content_list_action
+#: model:ir.model,name:climbing_gym_access_list.model_climbing_gym_access_list_content
+msgid "Access list content"
+msgstr "Contenido de lista de acceso"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_form_view
+msgid "Access list content form"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Access list report"
+msgstr "Reporte de listaa de acceso"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__location
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__location
+msgid "Access location"
+msgstr "Ubicación de acceso"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_needaction
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_needaction
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_needaction
+msgid "Action Needed"
+msgstr "Acción requerida"
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_generator,state:0
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_search_view
+msgid "Active"
+msgstr "Activo"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/controllers/portal.py:27
+#, python-format
+msgid "All valid for this list"
+msgstr "Ok. Todo válido para esta lista de acceso"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
+msgid "Are you sure you want to do this?"
+msgstr "Está seguro que desea hacer esto?"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_attachment_count
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_attachment_count
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_attachment_count
+msgid "Attachment Count"
+msgstr "Conteo de archivos adjuntos"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__seats_available
+msgid "Available seats"
+msgstr "Lugares disponibles"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Birthday"
+msgstr "Fecha de nacimiento"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/models/validate.py:9
+#, python-format
+msgid "Can't confirm without a valid partner"
+msgstr "No es posible confirmar sin un contacto seleccionado"
+
+#. module: climbing_gym_access_list
+#: sql_constraint:climbing_gym.access_list_content:0
+msgid "Can't inscribe the same contact twice!"
+msgstr "No es posible inscribir el mismo contacto dos veces!"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list,state:0
+#: selection:climbing_gym.access_list_content,state:0
+#: selection:climbing_gym.access_list_generator,state:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list,state:0
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_form_view
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list_content,state:0
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_search_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_search_view
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__create_uid
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__create_uid
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__create_date
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__create_date
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
+msgid "Data"
+msgstr "Datos"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__process_day
+msgid "Day of the month where the cron job runs"
+msgstr "Dia del mes en el que corre la tarea programada"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__default_list
+msgid "Default list"
+msgstr "Lista predeterminada"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__description
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__description
+msgid "Description of the current template"
+msgstr "Descripción de la plantilla actual"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__display_name
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__display_name
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Doctor's name"
+msgstr "Nombre médico"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_follower_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_follower_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_channel_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_channel_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_partner_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_partner_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Function"
+msgstr "Función"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
+msgid "Generate"
+msgstr "Generar"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Generated:"
+msgstr "Generado:"
+
+#. module: climbing_gym_access_list
+#: model:ir.actions.server,name:climbing_gym_access_list.access_list_generator_cronjob2_ir_actions_server
+#: model:ir.cron,cron_name:climbing_gym_access_list.access_list_generator_cronjob2
+#: model:ir.cron,name:climbing_gym_access_list.access_list_generator_cronjob2
+msgid "Generates a Access List on the designated day"
+msgstr "Genera una lista de acceso en el dia designado"
+
+#. module: climbing_gym_access_list
+#: model:ir.actions.server,name:climbing_gym_access_list.access_list_generator_cronjob_ir_actions_server
+#: model:ir.cron,cron_name:climbing_gym_access_list.access_list_generator_cronjob
+#: model:ir.cron,name:climbing_gym_access_list.access_list_generator_cronjob
+msgid "Generates a cronjob on the designated day"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: model:ir.model,name:climbing_gym_access_list.model_climbing_gym_access_list_generator
+msgid "Generator for access list"
+msgstr "Generador de lista de acceso"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_search_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_search_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_search_view
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__id
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__id
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__id
+msgid "ID"
+msgstr ""
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list__message_unread
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_content__message_unread
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list__message_needaction
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_content__message_needaction
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención."
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list__message_has_error
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_content__message_has_error
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_is_follower
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_is_follower
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list____last_update
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content____last_update
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__write_uid
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__write_uid
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__write_date
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__write_date
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Lastname"
+msgstr "Apellido"
+
+#. module: climbing_gym_access_list
+#: model:ir.model,name:climbing_gym_access_list.model_climbing_gym_access_list
+msgid "List for accessing certain activities"
+msgstr "Listado para acceder ciertas actividades"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_main_attachment_id
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_main_attachment_id
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjuntos principales"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__seats_availability
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__seats_availability
+msgid "Maximum Attendees"
+msgstr "Máximos participantes"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Medical certificate due date"
+msgstr "Fecha de vencimiento del certificado médico"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/models/validate.py:22
+#, python-format
+msgid "Medical certificate is not valid"
+msgstr "Certificado médico no válido"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__partner_id
+msgid "Member"
+msgstr "Miembro"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__access_list_content_ids
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+msgid "Members"
+msgstr "Socios"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_has_error
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_has_error
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de Envío de Mensaje"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__name
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__name
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__name
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Name"
+msgstr "Nombre"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/models/validate.py:17
+#, python-format
+msgid "No active valid Membership"
+msgstr "No posee una membresía válida"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/controllers/portal.py:18
+#, python-format
+msgid "No default access list"
+msgstr "No hay seleccionada ninguna lista de acceso predeterminada"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.actions.act_window,help:climbing_gym_access_list.access_list_content_list_action
+#: model_terms:ir.actions.act_window,help:climbing_gym_access_list.access_list_generator_list_action
+#: model_terms:ir.actions.act_window,help:climbing_gym_access_list.access_list_list_action
+msgid "No records yet!"
+msgstr "Sin registros aún!"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_needaction_counter
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_needaction_counter
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_has_error_counter
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_has_error_counter
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_has_error_counter
+msgid "Number of error"
+msgstr "Número de error"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list__message_needaction_counter
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_content__message_needaction_counter
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list__message_has_error_counter
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_content__message_has_error_counter
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list__message_unread_counter
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_content__message_unread_counter
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Organization"
+msgstr "Organización"
+
+#. module: climbing_gym_access_list
+#: model:ir.actions.report,name:climbing_gym_access_list.report_access_list
+msgid "PDF Report"
+msgstr "Reporte PDF"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_search_view
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/models/validate.py:33
+#, python-format
+msgid "Partner has not approved the required course!"
+msgstr "Debe tener aprobado el curso requerido!"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/models/validate.py:27
+#, python-format
+msgid "Partner has not the required tags!"
+msgstr "El contacto no posee las etiquetas requeridas"
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list,state:0
+#: selection:climbing_gym.access_list_content,state:0
+#: selection:climbing_gym.access_list_generator,state:0
+msgid "Pending"
+msgstr "Pendiente"
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list,event_type:0
+#: selection:climbing_gym.access_list_generator,event_type:0
+msgid "Private"
+msgstr "Privado"
+
+#. module: climbing_gym_access_list
+#: selection:climbing_gym.access_list,event_type:0
+#: selection:climbing_gym.access_list_generator,event_type:0
+msgid "Public"
+msgstr "Público"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__require_medical_certificate
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__require_medical_certificate
+msgid "Require medical certificate"
+msgstr "Requerir certificado médico"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__require_exams
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__require_exams
+msgid "Required approved"
+msgstr "Requerir aprobado"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__require_memberships
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__require_memberships
+msgid "Required membership"
+msgstr "Requerir membresía"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__require_tags
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__require_tags
+msgid "Required tags"
+msgstr "Etiquetas requeridas"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
+msgid "Requirements"
+msgstr "Requerimientos"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
+msgid "Revive"
+msgstr "Revivir"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__state
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__state
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__state
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_content_search_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_search_view
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_search_view
+msgid "Status"
+msgstr "Estado"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__event_type
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__event_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_unread
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_unread
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes sin leer"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_unread_counter
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_unread_counter
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "VAT"
+msgstr "NIF"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/controllers/portal.py:29
+#, python-format
+msgid "Validation error: %s"
+msgstr "Error de validación: %s"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
+msgid "Variants"
+msgstr "Variante"
+
+#. module: climbing_gym_access_list
+#: model:ir.actions.report,name:climbing_gym_access_list.report_access_list_web
+msgid "WEB Report"
+msgstr "Reporte WEB"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__website_message_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__website_message_ids
+#: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: climbing_gym_access_list
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list__website_message_ids
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_content__website_message_ids
+#: model:ir.model.fields,help:climbing_gym_access_list.field_climbing_gym_access_list_generator__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"
+
+#. module: climbing_gym_access_list
+#: code:addons/climbing_gym_access_list/models/access_list_content.py:70
+#, python-format
+msgid "You cannot delete a content of a closed access list "
+msgstr "No es posible eliminar un contenido de una lista de acceso cerrrada"
+
+#. module: climbing_gym_access_list
+#: model:ir.model,name:climbing_gym_access_list.model_climbing_gym_access_list_base
+msgid "climbing_gym.access_list_base"
+msgstr ""
