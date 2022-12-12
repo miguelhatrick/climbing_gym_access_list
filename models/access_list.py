@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, date, timezone
 import pytz
 from odoo import models, fields, api, _
 from odoo.exceptions import ValidationError
-
+from .  import validate
 
 class AccessList(models.Model):
     """List for accessing certain activities"""
@@ -77,33 +77,7 @@ class AccessList(models.Model):
 
     @api.one
     def validate_partner(self, partner_id):
-        """Validate if a partner has all the prerequisites to be allowed in this access list"""
-        if not partner_id:
-            raise ValidationError("Can't confirm without a valid partner")
-
-        member_memberships_ids = partner_id.climbing_gym_member_membership_ids
-
-        # Valid membership
-        if self.require_memberships:
-            if not member_memberships_ids.filtered(
-                    lambda a: a.state == 'active' and a.membership_id in self.require_memberships):
-                raise ValidationError("No active valid Membership")
-
-        # Valid medical certificate
-        if self.require_medical_certificate:
-            if not partner_id.climbing_gym_medical_certificate_valid:
-                raise ValidationError("Medical certificate is not valid")
-
-        # Valid tags
-        for _tag in self.require_tags:
-            if _tag not in partner_id.category_id:
-                raise ValidationError("Partner has not the required tags!")
-
-        # Valid exams
-        for _course_type_id in self.require_exams:
-            if not partner_id.climbing_gym_school_exam_student_ids.filtered(
-                    lambda e: e.course_id.course_type_id == _course_type_id and e.state == 'approved'):
-                raise ValidationError("Partner has not approved the required course!")
+        validate.validate_partner(self, partner_id)
 
     def action_open_view_access_list_contents(self):
         self.ensure_one()

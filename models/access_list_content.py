@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api, _
+from odoo import models, fields, api
 from odoo.exceptions import UserError
 from odoo.tools import logging
 import pytz
@@ -22,8 +22,7 @@ class AccessListContent(models.Model):
 
     name = fields.Char('Name', compute='_generate_name')
     partner_id = fields.Many2one('res.partner', string='Member', required=True, index=True, track_visibility=True)
-    access_list_id = fields.Many2one('climbing_gym.access_list', string='Access List', required=True,
-                                     track_visibility=True)
+    access_list_id = fields.Many2one('climbing_gym.access_list', string='Access List', required=True, track_visibility=True)
     state = fields.Selection(status_selection, 'Status', default='pending', track_visibility=True)
 
     @api.multi

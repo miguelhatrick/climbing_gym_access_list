@@ -39,6 +39,7 @@
                                 </group>
                                 <group colspan="4">
                                     <field name="event_type"/>
+                                    <field name="default_list"/>
                                     <field name="location"/>
                                     <field name="seats_availability"/>
                                     <field name="process_day"/>
@@ -69,6 +70,7 @@
                 <tree>
                     <field name="name"/>
                     <field name="location"/>
+                    <field name="default_list"/>
                     <field name="state"/>
                 </tree>
             </field>

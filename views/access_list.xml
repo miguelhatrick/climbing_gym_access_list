@@ -51,7 +51,6 @@
                                 </group>
                                 <group colspan="4">
                                     <field name="event_type"/>
-
                                 </group>
                             </page>
                             <page string="Requirements">
@@ -89,8 +88,8 @@
             <field name="model">climbing_gym.access_list</field>
             <field name="arch" type="xml">
                 <tree>
+                    <field name="id"/>
                     <field name="name"/>
-
                     <field name="location"/>
                     <field name="state"/>
                 </tree>

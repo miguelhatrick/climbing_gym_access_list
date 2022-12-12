@@ -29,35 +29,16 @@
     'data': [
         'security/ir.model.access.csv',
 
-        # 'data/cron_jobs.xml',
-        # 'data/cron_jobs_membership_due_date.xml',
-        # 'data/cron_jobs_medical_certificate_due_date.xml',
-        #
-        # 'data/data_weekday.xml',
-        #
-        # 'data/email/membership_email_template.xml',
-        # 'data/email/medical_certificate_email_template.xml',
-        #
-        # 'data/message_group.xml',
-        # 'data/user_groups.xml',
-        #
-        # 'security/ir.model.access.csv',
-
-        # 'views/report/member_membership_report.xml',
-        # 'views/report/event_monthly_group_report.xml',
-
-        # 'views/access_package.xml',
+        'data/cron_jobs.xml',
 
         'views/access_list.xml',
         'views/access_list_content.xml',
         'views/access_list_generator.xml',
         'views/menu.xml',
 
-        'views/report/access_list_report.xml'
+        'views/report/access_list_report.xml',
+
+        'views/portal/portal_layout_sidebar.xml'
 
     ],
-    # only loaded in demonstration mode
-    # 'demo': [
-    #     'demo/demo.xml',
-    # ],
 }

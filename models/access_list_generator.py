@@ -2,8 +2,9 @@
 import logging
 from datetime import datetime
 import pytz
-from odoo import models, fields, api, _
+from odoo import models, fields, api
 from odoo.exceptions import ValidationError
+from . import validate
 
 _logger = logging.getLogger(__name__)
 
@@ -11,14 +12,14 @@ _logger = logging.getLogger(__name__)
 class AccessListGenerator(models.Model):
     """Generator for access list"""
     _name = 'climbing_gym.access_list_generator'
-    _description = 'List for accessing certain activities'
+    _description = 'Generator for access list'
     _inherit = ['mail.thread']
 
     days_choices = []
     status_selection = [('pending', "Pending"), ('active', "Active"), ('cancel', "Cancelled")]
     type_selection = [('public', "Public"), ('private', "Private")]
     for i in range(1, 28):
-        days_choices.append((i, i))
+        days_choices.append((i, "%s" % i))
 
     name = fields.Char("Name", required=True)
     description = fields.Text(string='Description of the current template')
@@ -43,10 +44,12 @@ class AccessListGenerator(models.Model):
     )
 
     location = fields.Many2one('res.partner', string='Access location', readonly=False, required=True)
-    seats_availability = fields.Integer("Maximum Attendees", required=True, default=500)
-    process_day = fields.Selection(days_choices, "Day of the month where the cron job runs", required=True, default=26)
+    seats_availability = fields.Integer(string="Maximum Attendees", required=True)
+    process_day = fields.Selection(selection=days_choices, string="Day of the month where the cron job runs", required=True)
     event_type = fields.Selection(type_selection, 'Type', default='public')
     state = fields.Selection(status_selection, 'Status', default='pending')
+
+    default_list = fields.Boolean(string="Default list", required=True)
 
     @api.multi
     def action_pending(self):
@@ -130,3 +133,17 @@ class AccessListGenerator(models.Model):
             'res_model': 'climbing_gym.access_list',
             'res_id': access_list.id,
         }
+
+    def cron_generator(self):
+        _logger.info('Running Access list generator cron job: %s' % self.name)
+
+        today = datetime.now().day
+        generators = self.sudo().env['climbing_gym.access_list_generator'].search([('state', '=', 'active')])
+
+        for generator in generators:
+            if today == generator.process_day:
+                generator.generate_access_list()
+
+    @api.one
+    def validate_partner(self, partner_id):
+        validate.validate_partner(self, partner_id)

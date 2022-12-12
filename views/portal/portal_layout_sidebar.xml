@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="portal_access_list_sidebar" name="Access list sidebar status" inherit_id="portal.portal_layout">
+        <xpath expr="//div[@id='o_my_sidebar']" position="inside">
+            <br/>
+            <div id="o_portal_my_default_access_list_generator" class="o_portal_my_default_access_list_generator">
+                <h4>Access list</h4>
+                <hr class="mt-1 mb-0"/>
+                <div class="o_my_membership" t-if="access_list_generator_name">
+                    <div>
+                        <i class="fa fa-id-card fa-fw" role="img" aria-label="Id" title="Id"/>
+                        <span itemprop="membership" t-esc="access_list_generator_name"/>
+                    </div>
+                    <div>
+                        <i class="fa fa-calendar fa-fw" role="img" aria-label="Due date" title="Due Date"/>
+                        <span itemprop="membership" t-esc="access_list_generator_result"/>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        </xpath>
+    </template>
+</odoo>
