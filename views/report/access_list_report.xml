@@ -29,27 +29,35 @@
                                 <tbody>
                                     <tr class="border-black">
                                         <th>Organization</th>
-                                        <th>Name</th>
+                                        <th>Sport</th>
+                                        <th>Discipline</th>
                                         <th>Lastname</th>
+                                        <th>Firstname</th>
                                         <th>VAT</th>
-                                        <th>Birthday</th>
-                                        <th>Function</th>
-                                        <th>Medical certificate due date</th>
-                                        <th>Doctor's name</th>
+                                        <th>Date of birth</th>
+                                        <th>Category</th>
+                                        <th>Medical approval issue date</th>
+                                        <th>Doctor</th>
+                                        <th>Medical insurance</th>
+                                        <th>Medical insurance associate number</th>
+                                        <th>Medical insurance emergency number</th>
+                                        <th>Emergency contact</th>
+                                        <th>Emergency contact relation</th>
+                                        <th>Emergency contact phone number</th>
+                                        <th>Schedule selected</th>
                                     </tr>
 
-                                    <tr t-foreach="meg.access_list_content_accepted_ids.sorted(key=lambda r: r.partner_id.lastname)"
-                                        t-as="cont">
+                                    <tr t-foreach="meg.access_list_content_accepted_ids.sorted(key=lambda r: r.partner_id.lastname)" t-as="cont">
+<!--                                    <tr t-foreach="meg.event_content_ids_active.sorted(key=lambda r: r.event_monthly_id.name)" t-as="cont">-->
+                                        <td></td>
+                                        <td>Climbing</td>
+                                        <td>Climbing</td>
                                         <td>
-
+                                            <span t-field="cont.partner_id.lastname"/>
                                         </td>
                                         <td>
                                             <span t-field="cont.partner_id.firstname"/>
                                         </td>
-                                        <td>
-                                            <span t-field="cont.partner_id.lastname"/>
-                                        </td>
-
                                         <td>
                                             <span t-field="cont.partner_id.main_id_number"/>
                                         </td>
@@ -59,9 +67,7 @@
                                                 <span t-field="cont.partner_id.mobile"/>
                                             </t>
                                         </td>
-                                        <td>
-                                            <span>Sportsman</span>
-                                        </td>
+                                        <td>Athlete</td>
                                         <td>
                                             <span t-field="cont.partner_id.climbing_gym_medical_certificate_latest.issue_date"/>
                                         </td>
@@ -69,6 +75,28 @@
                                             <span t-field="cont.partner_id.climbing_gym_medical_certificate_latest.doctor_name"/>
                                             <span t-field="cont.partner_id.climbing_gym_medical_certificate_latest.doctor_license"/>
                                         </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.health_insurance"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.health_insurance_number"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.health_insurance_emergency_phone"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.emergency_contact_name"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.emergency_contact_relationship"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="cont.partner_id.emergency_contact_phone"/>
+                                        </td>
+                                        <td>
+
+                                        </td>
+
 
                                     </tr>
                                 </tbody>

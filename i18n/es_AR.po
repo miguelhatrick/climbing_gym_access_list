@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-11 23:59+0000\n"
-"PO-Revision-Date: 2022-12-11 21:02-0300\n"
+"POT-Creation-Date: 2024-04-11 14:30+0000\n"
+"PO-Revision-Date: 2024-04-11 11:32-0300\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -118,11 +118,6 @@ msgid "<i class=\"fa fa-id-card fa-fw\" role=\"img\" aria-label=\"Id\" title=\"I
 msgstr ""
 
 #. module: climbing_gym_access_list
-#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
-msgid "<span>Sportsman</span>"
-msgstr "<span>Deportista</span>"
-
-#. module: climbing_gym_access_list
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__access_list_content_accepted_ids
 msgid "Accepted students"
 msgstr "Alumnos aceptados"
@@ -146,12 +141,12 @@ msgstr "Generador de lista de acceso"
 #. module: climbing_gym_access_list
 #: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
 msgid "Access List Generator form"
-msgstr ""
+msgstr "Generador de listas de acceso"
 
 #. module: climbing_gym_access_list
 #: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
 msgid "Access List form"
-msgstr ""
+msgstr "Formulario de lista de acceso"
 
 #. module: climbing_gym_access_list
 #: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
@@ -214,6 +209,11 @@ msgid "Are you sure you want to do this?"
 msgstr "Está seguro que desea hacer esto?"
 
 #. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Athlete"
+msgstr "Atleta"
+
+#. module: climbing_gym_access_list
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_attachment_count
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__message_attachment_count
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__message_attachment_count
@@ -224,11 +224,6 @@ msgstr "Conteo de archivos adjuntos"
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__seats_available
 msgid "Available seats"
 msgstr "Lugares disponibles"
-
-#. module: climbing_gym_access_list
-#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
-msgid "Birthday"
-msgstr "Fecha de nacimiento"
 
 #. module: climbing_gym_access_list
 #: code:addons/climbing_gym_access_list/models/validate.py:9
@@ -254,6 +249,16 @@ msgstr "Cancelar"
 #: selection:climbing_gym.access_list_generator,state:0
 msgid "Cancelled"
 msgstr "Cancelado"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Category"
+msgstr "Categoría"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Climbing"
+msgstr "Escalada"
 
 #. module: climbing_gym_access_list
 #: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_form_view
@@ -299,6 +304,11 @@ msgid "Data"
 msgstr "Datos"
 
 #. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Date of birth"
+msgstr "Fecha de nacimiento"
+
+#. module: climbing_gym_access_list
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__process_day
 msgid "Day of the month where the cron job runs"
 msgstr "Dia del mes en el que corre la tarea programada"
@@ -315,6 +325,11 @@ msgid "Description of the current template"
 msgstr "Descripción de la plantilla actual"
 
 #. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Discipline"
+msgstr "Disciplina"
+
+#. module: climbing_gym_access_list
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__display_name
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__display_name
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__display_name
@@ -323,8 +338,28 @@ msgstr "Nombre a mostrar"
 
 #. module: climbing_gym_access_list
 #: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
-msgid "Doctor's name"
-msgstr "Nombre médico"
+msgid "Doctor"
+msgstr "Doctor"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Emergency contact"
+msgstr "Contacto de emergencia"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Emergency contact phone number"
+msgstr "Número de teléfono"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Emergency contact relation"
+msgstr "Relación"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Firstname"
+msgstr "Nombre"
 
 #. module: climbing_gym_access_list
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__message_follower_ids
@@ -348,11 +383,6 @@ msgid "Followers (Partners)"
 msgstr "Seguidores (Empresas)"
 
 #. module: climbing_gym_access_list
-#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
-msgid "Function"
-msgstr "Función"
-
-#. module: climbing_gym_access_list
 #: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
 msgid "Generate"
 msgstr "Generar"
@@ -374,7 +404,7 @@ msgstr "Genera una lista de acceso en el dia designado"
 #: model:ir.cron,cron_name:climbing_gym_access_list.access_list_generator_cronjob
 #: model:ir.cron,name:climbing_gym_access_list.access_list_generator_cronjob
 msgid "Generates a cronjob on the designated day"
-msgstr ""
+msgstr "Genera un cronjob para el día designado"
 
 #. module: climbing_gym_access_list
 #: model:ir.model,name:climbing_gym_access_list.model_climbing_gym_access_list_generator
@@ -469,14 +499,29 @@ msgstr "Máximos participantes"
 
 #. module: climbing_gym_access_list
 #: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
-msgid "Medical certificate due date"
-msgstr "Fecha de vencimiento del certificado médico"
+msgid "Medical approval issue date"
+msgstr "Fecha de Apto físico"
 
 #. module: climbing_gym_access_list
 #: code:addons/climbing_gym_access_list/models/validate.py:22
 #, python-format
 msgid "Medical certificate is not valid"
 msgstr "Certificado médico no válido"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Medical insurance"
+msgstr "Seguro médico"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Medical insurance associate number"
+msgstr "Número de afiliado"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Medical insurance emergency number"
+msgstr "Teléfono de emergencia"
 
 #. module: climbing_gym_access_list
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__partner_id
@@ -507,7 +552,6 @@ msgstr "Mensajes"
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__name
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_content__name
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list_generator__name
-#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
 msgid "Name"
 msgstr "Nombre"
 
@@ -647,6 +691,16 @@ msgstr "Requerimientos"
 #: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.access_list_generator_form_view
 msgid "Revive"
 msgstr "Revivir"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Schedule selected"
+msgstr "Días y horarios"
+
+#. module: climbing_gym_access_list
+#: model_terms:ir.ui.view,arch_db:climbing_gym_access_list.report_access_list_template
+msgid "Sport"
+msgstr "Deporte"
 
 #. module: climbing_gym_access_list
 #: model:ir.model.fields,field_description:climbing_gym_access_list.field_climbing_gym_access_list__state
