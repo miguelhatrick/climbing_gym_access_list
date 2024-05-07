@@ -45,6 +45,7 @@
                                         <th>Emergency contact relation</th>
                                         <th>Emergency contact phone number</th>
                                         <th>Schedule selected</th>
+                                        <th>email</th>
                                     </tr>
 
                                     <tr t-foreach="meg.access_list_content_accepted_ids.sorted(key=lambda r: r.partner_id.lastname)" t-as="cont">
@@ -96,7 +97,9 @@
                                         <td>
 
                                         </td>
-
+                                        <td>
+                                            <span t-field="cont.partner_id.email"/>
+                                        </td>
 
                                     </tr>
                                 </tbody>
